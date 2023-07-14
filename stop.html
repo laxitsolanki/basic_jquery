@@ -1,0 +1,15 @@
+<script src="https://ajax.googleapis.com/jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#start").click(function(){
+			$("div").animate({left:'100px'},1000);
+			$("div").animate({fontSize:'3em'},1000);
+		});
+		$("#stop").click(function(){
+			$("div").stop();
+		});
+
+	});
+</script>
+<button id="start">Start</button>
+<button id="stop">Stop</button>

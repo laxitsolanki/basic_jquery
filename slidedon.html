@@ -1,0 +1,85 @@
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#flip").click(function(){
+
+			$("#panel").slideDown();  //only down
+			/*$("#panel").slideDown(7000); */
+			/*$("#panel").slideUp(); */
+			/*$("#panel").slideToggle(5000); */ //milliseconds
+			/*$("#panel").fadeToggle(6000); */
+			/*$("#panel2").slideUp(4000); */
+});
+		$("#flip2").click(function(){
+
+			$("#panel").slideDown();  //only down
+			/*$("#panel").slideDown(6000); */
+			/*$("#panel").slideUp(); */
+			$("#panel2").slideToggle(4000);  //milliseconds
+			/*$("#panel").fadeToggle(6000); */
+			/*$("#panel").slideUp(4000); */
+            
+
+		
+	});
+});</script>
+<style>
+	#flip {
+		padding: 5px;
+		text-align: center;
+		background-color: black;
+		border:solid 1px #ff0000;
+		color: yellow;
+	}  
+	#panel
+	{
+		padding: 5px;
+		text-align: center;
+		background-color: teal;
+		border:solid 1px #ff0000;
+		color: yellow;
+
+	}
+	#panel{
+		padding: 50px;
+		display: none;
+		color: white;
+	}
+	/*contact*/
+	#flip2 {
+		padding: 5px;
+		text-align: center;
+		background-color: black;
+		border:solid 1px #ff0000;
+		color: yellow;
+	}  
+	#panel2
+	{
+		padding: 5px;
+		text-align: center;
+		background-color: teal;
+		border:solid 1px #ff0000;
+		color: yellow;
+
+	}
+	#panel2{
+		padding: 50px;
+		display: none;
+		color: white;
+	}
+
+</style>
+	<div id="flip">About Us</div>
+	<div id="panel" style="box-shadow: 1px 1px 10px rgb(255,0,0);text-shadow: 3px 2px 5px rgb(230,120,100);">
+		<h1> JAY Vachhraj</h1>
+	</div>
+	<div id="flip2">Contact Us </div>
+	<div id="panel2" style="box-shadow: 1px 1px 10px 1px rgb(255,0,0);text-shadow: 3px 2px 5px rgb(230,120,100);">
+		<h1>Name:Laxit solanki</h1>
+		<h2>Mobile: 7874247830</h2>
+		<h2>solankilaxit963@gmail.com</h2>
+		<hr>
+		thank you
+</hr>
+	</div>
+

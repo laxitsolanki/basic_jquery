@@ -1,0 +1,18 @@
+<script src="jquery-3.6.0.min.js">
+</script>
+<script>
+	$(document).ready(function(){
+		$("#p1").mouseenter(function(){
+			alert("You entered p1!");
+		});
+	});
+$(document).ready(function(){
+	$("#abc").mouseleave(function(){
+		alert("this is a leave !");
+	});
+
+});
+</script>
+<p id=p1 style="background-color:yellow;">if you double-click on me,i will disappear.</p>
+<p>Click me away!</p>
+<p id=abc style="background-color: orange;">Click Me too!</p>

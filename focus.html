@@ -1,0 +1,21 @@
+<script src="jquery-3.6.0.min.js">
+</script>
+<script>
+	$(document).ready(function(){
+		$("input").focus(function(){
+			$(this).css("background-color","#cccccc");
+			$(this).css("color","#FF0000");
+		});
+	});
+
+$(document).ready(function(){
+		$("input").blur(function(){
+			$(this).css("background-color","#FF0000");
+			$(this).css("color","#CDEEFF");
+		});
+	});
+</script>
+<input type="text">
+<input type="text">
+<input type="text">
+<input type="text">

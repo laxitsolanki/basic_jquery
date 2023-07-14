@@ -1,0 +1,40 @@
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function(){
+ $("tr").on({
+ mouseenter:function(){
+  $(this).css("background-color","black");
+  $(this).css("color","white");
+},
+ mouseleave:function(){
+ 	$(this).css("background-color","maroon");
+ },
+ click:function(){
+ 	$(this).css("background-color","yellow");
+ 	$(this).css("color","black");
+ }
+});
+});
+
+
+$(document).ready(function(){
+ $("div").on({
+ mouseenter:function(){
+  $(this).css("background-color","black");
+  $(this).css("color","white");
+},
+ mouseleave:function(){
+ 	$(this).css("background-color","maroon");
+ },
+ click:function(){
+ 	$(this).css("background-color","yellow");
+ 	$(this).css("color","black");
+ }
+});
+});
+</script>
+<table border=1>
+	 <tr><td>Content1</td></tr>
+	 <tr><td>content2</td></tr>
+</table>
+<div>Home</div>&nbsp;&nbsp;&nbsp;<div>Contact</div>&nbsp;&nbsp;<div>Serives</div>

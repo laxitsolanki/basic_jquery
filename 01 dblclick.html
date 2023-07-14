@@ -1,0 +1,19 @@
+<script src="jquery-3.6.0.min.js">
+</script>
+<script>
+	$(document).ready(function(){
+		$("p").dblclick(function(){
+     $(this).hide();
+});
+	});	
+
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("p").show();
+		});
+	});
+</script>
+<p>if you duble-click on me, i will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<button>Click To Show</button>

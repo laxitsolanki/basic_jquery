@@ -1,0 +1,32 @@
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+$("input").on({
+	mouseenter:function(){
+		$(this).css("background-color","black");
+		$(this).css("color","white");
+	},
+	mouseleave:function(){
+		$(this).css("background-color","maroon");
+	},
+	click:function(){
+		$(this).css("background-color","yellow");
+		$(this).css("color","black");
+	},
+	keypress:function(){
+		$(this).css("background-color","pink");
+		$(this).css("color","green");
+	},
+   keydown:function(){
+   	$(this).css("background-color","blue");
+   	$(this).css("color","white");
+   }
+ });
+});
+</script>
+</head>
+<body>
+	<input><br>
+	<input>
+</body>
+
